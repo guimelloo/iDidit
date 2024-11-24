@@ -1,0 +1,15 @@
+{
+    "name": "negro/ididit",
+    "autoload": {
+        "psr-4": {
+            "Negro\\Ididit\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "guimelloo",
+            "email": "negromonteguilherme@gmail.com"
+        }
+    ],
+    "require": {}
+}

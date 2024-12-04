@@ -17,6 +17,11 @@ class CareerController extends Controller
         return view('career');
     }
 
+    public function careerHome()
+    {
+        return view('careerHome');
+    }
+
     public function create(Request $request)
     {
         $validated = $request->validate([
@@ -27,7 +32,7 @@ class CareerController extends Controller
         ]);
         
         if ($this->repository->create($validated)) {
-            return view('/');
+            return view('/CareerHome');
         }
     }
 
